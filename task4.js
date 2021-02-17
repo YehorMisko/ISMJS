@@ -10,7 +10,6 @@ function()
     summa = summa + Math.pow(b,k);
     b++;
   }
-
-numberResult.innerHTML = summa;
+  numberResult.innerHTML = summa;
 }
 )

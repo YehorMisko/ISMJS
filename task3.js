@@ -8,10 +8,8 @@ function()
   {
     summa = summa + Math.pow(k,n);
     k++;
-    summa++;
     n--;
   }
-
 numberResult.innerHTML = summa;
 }
 )
