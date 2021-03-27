@@ -17,17 +17,28 @@
 			<body>
 				<main class="inputs">
 				<div>
-					n = <input type="text" id="numberX"/>
+					Row Count - <input type="text" id="rowCount"/>
 				</div>
 				<div>
-					k = <input type="text" id="numberY"/>
+					Column Count - <input type="text" id="colCount"/>
 				</div>
-
+				<div>
+				 Min random - <input type="text" id="minRand"/>
+			 </div>
+			 <div>
+				 Max random - <input type="text" id="maxRand"/>
+			 </div>
 					<p class="btnwrap">
-						<button type="button" class="button" id="compute"> Compute </button>
+						<button type="button" class="button" id="compute"> Generate Matrix </button>
 					</p>
 					<div class="result">
-						result = <span id="numberResult"></span>
+						<div id="numberResult"></div>
+					</div>
+					<p class="btnwrap">
+						<button type="button" class="button" id="transpose"> Transpose Matrix </button>
+					</p>
+					<div class="result">
+						<div id="transposeResult"></div>
 					</div>
 				</main>
 <p class="btnwrap">
